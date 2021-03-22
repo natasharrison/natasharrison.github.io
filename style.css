@@ -7,7 +7,86 @@
 /* *box sizing, margin, padding? */
 
 body {
-  color: var(--primary-color);
+  color: #fff;
+  background-color: var(--secondary-color);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* HEADER / NAV BAR STYLES START */
+
+header {
+  padding: 20px 35px;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  background-image: url("../natasharrison.github.io/hero-image.jpg");
+  background-size: cover;
+  background-position: 80%;
+  background-attachment: fixed;
+  z-index: 9999;
+}
+
+header h1 {
+  text-shadow: 4px 4px 8px #0d3827;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 4px 4px 8px #0d3827;
+}
+
+header nav ul li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a:hover {
+  background-color: var(--primary-color);
+  border-radius: 15px;
+}
+
+/* HEADER / NAVBAR STYLES END */
+
+/* HERO STYLES */
+/* how to make the background similar to RunBuddy? take up more space */
+/* HERO STYLES END */
+
+/* ABOUT STYLES */
+.about {
+  background-color: red;
+  margin: 50px auto;
+  padding-bottom: 50px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about img {
+  border-radius: 50px;
+}
+/* ABOUT STYLES END */
+
+/* PORTFOLIO STYLE */
+/* PORTFOLIO STYLE END */
+
+/* CONTACT STYLE */
+/* CONTACT STYLE END */
+
+/* FOOTER STYLES START */
+footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+  text-shadow: 4px 4px 8px #0d3827;
+}
