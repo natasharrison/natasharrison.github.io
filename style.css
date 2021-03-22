@@ -1,1 +1,13 @@
+:root {
+  --primary-color: #005e5a;
+  --secondary-color: #024c3b;
+  --tertiary-color: #0d3827;
+}
 
+/* *box sizing, margin, padding? */
+
+body {
+  color: var(--primary-color);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* HEADER / NAV BAR STYLES START */
