@@ -56,11 +56,21 @@ header nav ul li a:hover {
 
 /* HERO STYLES */
 /* how to make the background similar to RunBuddy? take up more space */
+.hero {
+  background-image: url("../natasharrison.github.io/hero-image.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-attachment: fixed;
+  background-position: 80%;
+}
 /* HERO STYLES END */
 
 /* ABOUT STYLES */
 .about {
-  background-color: red;
+  background-color: var(--primary-color);
   margin: 50px auto;
   padding-bottom: 50px;
   width: 100%;
@@ -69,16 +79,41 @@ header nav ul li a:hover {
   align-items: center;
   justify-content: space-between;
 }
+/* how to float the image to the right */
 
 .about img {
-  border-radius: 50px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 8px black;
 }
 /* ABOUT STYLES END */
 
 /* PORTFOLIO STYLE */
+.run-buddy img {
+  border-radius: 20px;
+  box-shadow: 4px 4px 8px black;
+}
+
+.resume img {
+  border-radius: 50%;
+  box-shadow: 4px 4px 8px black;
+}
+
+.coming-soon img {
+  border-radius: 50%;
+  box-shadow: 4px 4px 8px black;
+}
 /* PORTFOLIO STYLE END */
 
 /* CONTACT STYLE */
+.contact {
+  background-color: var(--primary-color);
+}
+
+.contact ul li:hover {
+  background-color: var(--primary-color);
+  border-radius: 15px;
+}
+
 /* CONTACT STYLE END */
 
 /* FOOTER STYLES START */
