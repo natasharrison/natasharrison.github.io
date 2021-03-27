@@ -58,7 +58,10 @@ header nav p a:hover {
   background-image: url("./hero-image.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: 80%;
   height: 800px;
+  padding: 20px 35px;
+  background-size: cover;
 }
 /* HERO STYLES END */
 
@@ -77,6 +80,7 @@ header nav p a:hover {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  border: 30px;
 }
 /* how to float the image to the right */
 
@@ -84,6 +88,7 @@ header nav p a:hover {
   border-radius: 20px;
   box-shadow: 4px 4px 8px black;
   float: right;
+  margin: 0px 30px;
 }
 
 .about p {
