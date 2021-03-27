@@ -4,8 +4,6 @@
   --tertiary-color: #0d3827;
 }
 
-/* *box sizing, margin, padding? */
-
 body {
   color: #fff;
   background-color: var(--secondary-color);
@@ -21,11 +19,12 @@ header {
   flex-wrap: wrap;
   position: sticky;
   top: 0;
-  background-image: url("../natasharrison.github.io/hero-image.jpg");
+  background-image: url("./hero-image.jpg");
   background-size: cover;
   background-position: 80%;
   background-attachment: fixed;
   z-index: 9999;
+  font-size: 20px;
 }
 
 header h1 {
@@ -39,15 +38,18 @@ header a {
   text-shadow: 4px 4px 8px #0d3827;
 }
 
-header nav ul li {
+header nav {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
 }
 
-header nav ul li a:hover {
+header nav p {
+  padding: 10px;
+  /* align-items: center;
+  list-style: none;
+  font-size: 20px; */
+}
+
+header nav p a:hover {
   background-color: var(--primary-color);
   border-radius: 15px;
 }
@@ -55,16 +57,11 @@ header nav ul li a:hover {
 /* HEADER / NAVBAR STYLES END */
 
 /* HERO STYLES */
-/* how to make the background similar to RunBuddy? take up more space */
-.hero {
-  background-image: url("../natasharrison.github.io/hero-image.jpg");
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: flex-start;
+#hero {
+  background-image: url("./hero-image.jpg");
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 80%;
+  height: 800px;
 }
 /* HERO STYLES END */
 
@@ -84,6 +81,11 @@ header nav ul li a:hover {
 .about img {
   border-radius: 20px;
   box-shadow: 4px 4px 8px black;
+  float: right;
+}
+
+.about p {
+  float: right;
 }
 /* ABOUT STYLES END */
 
@@ -125,3 +127,8 @@ footer {
   text-align: center;
   text-shadow: 4px 4px 8px #0d3827;
 }
+
+/* MEDIA QUERY */
+/* @media screen and (max-width:980px)  */
+/* @media screen and (max-width: 768px) */
+/* @media screen and (max-width: 575px) */
