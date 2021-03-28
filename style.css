@@ -25,6 +25,7 @@ header {
   background-attachment: fixed;
   z-index: 9999;
   font-size: 20px;
+  border-radius: 10px;
 }
 
 header h1 {
@@ -62,27 +63,30 @@ header nav p a:hover {
   height: 800px;
   padding: 20px 35px;
   background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
 }
 /* HERO STYLES END */
 
 /* SECTIONS STYLES */
 .section-title {
   text-shadow: 4px 4px 8px #0d3827;
+  padding: 30px;
 }
 /* SECTION STYLES END */
 /* ABOUT STYLES */
 .about {
   background-color: var(--primary-color);
   margin: 50px auto;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   border: 30px;
+  border-radius: 10px;
 }
-/* how to float the image to the right */
 
 .about img {
   border-radius: 20px;
@@ -93,34 +97,56 @@ header nav p a:hover {
 
 .about p {
   float: right;
+  text-shadow: 4px 4px 8px #0d3827;
 }
 /* ABOUT STYLES END */
 
 /* PORTFOLIO STYLE */
 .projects {
   display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  margin: 50px auto;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border: 30px;
+  border-radius: 10px;
 }
 
 .run-buddy img {
   border-radius: 20px;
   box-shadow: 4px 4px 8px black;
   float: left;
+  margin: 30px;
 }
 
 .resume img {
   border-radius: 50%;
   box-shadow: 4px 4px 8px black;
+  margin: 30px;
 }
 /* PORTFOLIO STYLE END */
 
 /* CONTACT STYLE */
 .contact {
   background-color: var(--primary-color);
+  border-radius: 10px;
+  padding-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  text-shadow: 4px 4px 8px #0d3827;
+  padding-bottom: 20px;
+  margin: 50px auto;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border: 30px;
 }
 
-.contact-info {
+/* .contact-info {
   display: flex;
-}
+} */
 
 .contact-info a {
   padding: 20px;
@@ -128,6 +154,10 @@ header nav p a:hover {
   color: #fff;
   text-shadow: 4px 4px 8px #0d3827;
   font-weight: bold;
+  margin: 40px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .contact-info a:hover {
@@ -142,11 +172,58 @@ footer {
   justify-content: space-around;
   flex-wrap: wrap;
   width: 100%;
+  font-size: 12px;
+  font-weight: 100px;
   text-align: center;
   text-shadow: 4px 4px 8px #0d3827;
 }
 
 /* MEDIA QUERY */
 /* @media screen and (max-width:980px)  */
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  heaver nav {
+    width: 100%;
+  }
+
+  .hero {
+    width: 100%;
+  }
+
+  .about {
+    width: 50%;
+    padding: 30px;
+  }
+
+  .projects {
+    width: 50%;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .contact {
+    width: 50%;
+    padding: 30px;
+    /* text-align: center; */
+  }
+
+  footer {
+    width: 100%;
+  }
+}
 /* @media screen and (max-width: 768px) */
+@media screen and (max-width: 768px) {
+}
 /* @media screen and (max-width: 575px) */
+@media screen and (max-width: 575px) {
+}
