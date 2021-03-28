@@ -21,9 +21,7 @@ Any and all feedback from users is appreciated!
 
 [GitHub] (https://natasharrison.github.io)
 
-![application screenshot] (./natasharrison.github.io/screenshot.jpg)
-
-image (./repo/natasharrison.github.io/screenshot.jpg)
+[application screenshot] (./screenshot.jpg)
 
 ## Contribution
 
