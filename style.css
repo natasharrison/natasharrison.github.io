@@ -114,7 +114,8 @@ header nav p a:hover {
   border-radius: 10px;
 }
 
-.run-buddy img {
+.run-buddy img,
+.generate-date img {
   border-radius: 20px;
   box-shadow: 4px 4px 8px black;
   float: left;
